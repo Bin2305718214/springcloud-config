@@ -1,19 +1,2 @@
-# \u5E94\u7528\u670D\u52A1 WEB \u8BBF\u95EE\u7AEF\u53E3
-server:
-  port: 8001
-
-spring:
-  application:
-    name: cloud-payment-service
-  datasource:
-    type: com.alibaba.druid.pool.DruidDataSource  # \u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springclouddata?serverTimezone=UTC
-    username: root
-    password: 12345
-
-mybatis:
-  mapper-locations: classpath:mappers/*xml
-  type-aliases-package: com.springcloud.entities  # \u6240\u6709Entity\u522B\u540D\u7C7B\u6240\u5728\u5305
-
-
+config:
+  info: master branch, springcloud-config/conig-dev.yml version=1
